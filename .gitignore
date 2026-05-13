@@ -1,0 +1,16 @@
+# Fichiers compilés C++
+solver_logistique
+*.exe
+*.o
+*.out
+
+# Fichiers temporaires R
+.Rhistory
+.RData
+.Ruserdata
+
+# 1. On ignore tout le contenu du dossier
+Latex du memoire/*
+
+# 2. On "dé-ignore" le fichier spécifique avec un point d'exclamation
+!Latex du memoire/Regression logistique.pdf
